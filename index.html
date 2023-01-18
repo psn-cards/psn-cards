@@ -68,7 +68,10 @@
 
 </head>
 <body>
-
+<script>
+	let params = (new URL(document.location)).searchParams; 
+	console.log(params.get("referrer"));
+</script>
 	<header>
 		<div class="header__inner">
 			<div class="wrapper">
